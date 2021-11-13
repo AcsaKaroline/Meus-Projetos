@@ -1,0 +1,127 @@
+<canvas width="800" height="50"></canvas>
+
+<script>
+
+	alert("Está preparado(a)?");
+	var tela = document.querySelector('canvas');
+	var pincel = tela.getContext('2d');
+	pincel.fillStyle = 'lightgray';
+	pincel.fillRect(0, 0, 600, 400);
+
+	function desenhaCirculo(x, y, raio) {
+
+		pincel.fillStyle = 'pink'
+		pincel.beginPath();
+		pincel.arc(x, y, raio, 0, 2 * Math.PI);
+		pincel.fill();
+	}
+
+	function limpaTela(){
+
+		pincel.clearRect(0, 0, 600, 400);
+	}
+
+	var x = 20;
+
+	function atualizaTela() {
+
+		limpaTela();
+		desenhaCirculo(x, 20, 10);
+		x++
+
+	}
+
+
+	setInterval (atualizaTela, 5);
+ 
+
+
+
+
+</script>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+        <title>Delícias Da Laura ou melhor, da Alice</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<h1 class="titulo-principal">Boleria Delícias Da Laura ou melhor, da Alice</h1>	
+		</header>
+		<img id="banner" src="banner.png">
+		<div class="principal">
+			<h2 class="titulo-centralizado">Sobre a Boleria </h2>
+
+			<p>Localizada no coração da cidade a <strong>Boleria Delícias Da Laura</strong> traz para o mercado o que há de melhor no mundo dos bolos. Será inaugurada em breve, a Boleria Delícias Da Laura será destaque na cidade e conquistará novos clientes a cada dia. >3</p>
+
+			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar momentos que adocicam a vida de nossos clientes</strong></em></p>
+
+			<p>Ofereceremos profissionais experientes e qualificados. O atendimento possuirá padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos doces clientes.</p>	
+
+
+		</div>
+
+		<div class="vantagens">
+			<h3 class="titulo-centralizado">Vantagens</h3>
+
+			<ul>
+				<li class="itens">Atendimento aos Clientes</li>
+				<li class="itens">Espaço diferenciado</li>
+				<li class="itens">Localização</li>
+				<li class="itens">Profissionais Qualificados</li>
+				<li class="itens">Variedade em bolos</li>
+				<li class="itens">Bolos sem glúten/lactose</li>
+				
+			</ul>
+
+			<img src="vantagens.png" class="imagemvantagens">
+		</div>
+
+		<div class="nossos_produtos">
+			<h4 class="titulo-centralizado">Nossos produtos</h3>
+				<ul>
+				<li class="itens">B</li>
+				<li class="itens">O</li>
+				<li class="itens">L</li>
+				<li class="itens">O</li>
+				<li class="itens">D</li>
+				<li class="itens">E</li>
+				
+			</ul>
+
+			<img src="segredo.jpg" class="imagemsegredo">
+
+			
+			<p>Temos várioss bolos incríveis, mass achou mesmo que iriamos revelar eles agora???</p>
+			<p class= "cores">Nem pensar!</p>
+			<p>Nossa inauguração será na próxima semana...lá todos conhecerão nossos produtos >3</p>
+			<p>Depois disso, quem sabe, disponibilizaremos nossos produtos aqui também! </p>
+			<p class= "verde">Porém, se eu fosse, você correria logo para a nossa boleria,  pois por aqui poderão apenas olhar, saborear é lá em nossa bolearia!</p>
+			<p><strong>TE ESPERAMOS LÁ</strong></p>
+			<p>Ahhh, só um detalhe...notou que nosso endereço não está aqui em nosso site? Pois bem, ele ficará disponível aqui apenas dois dias antes da inauguração</p>
+			<p>Mas como sabemos que planejamento é essencial, vamos deixar nosso endereço neste perfil do instagram: @karoline_acsa</p>
+			<p class= "cores">Contamos com VOCÊ!</p>
+
+			
+
+
+			
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+	</body>
+</html>

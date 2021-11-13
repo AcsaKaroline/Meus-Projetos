@@ -1,0 +1,79 @@
+body {
+
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+	background: #E0FFFF;
+	padding: 30px;
+	font-size: 20px;
+
+}
+
+.titulo-principal {
+	padding-left: 20px;
+	font-size: 60px;
+}
+
+.titulo-centralizado {
+    text-align: center
+
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size : 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style:  italic
+}
+
+.vantagens {
+	background:#FFF0F5;
+	padding:  20px;
+	font-size: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagemvantagens {
+    width: 21%;
+}
+
+.nossos_produtos {
+	display: inline-block;
+	background: #EEE8AA;
+	display: inline-block;
+	font-size: 21px;
+}
+
+.cores {
+	color: #FF0000;
+
+}
+
+.verde {
+	color: #006400;
+}
+
+.imagemsegredo {
+	display: inline-block;
+	width: 20%;
+    
+}
